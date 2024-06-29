@@ -1,0 +1,23 @@
+{
+  "name": "BIU",
+  "version": "1.0.0",
+  "description": "A lightweight, simple, and easy way to create markup",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "biu"
+  },
+  "keywords": [
+    "Markup",
+    "BIU",
+    "Elooly"
+  ],
+  "author": "The Elooly Team",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
