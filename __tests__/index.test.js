@@ -30,6 +30,9 @@ test("Complex text (Double-bound)", () => {
 test("Multiple lines", () => {
   expect(evalulate("h1\tHeading 1\np\t/u\tUnderlined text/ is cool")).toBe("<h1>Heading 1</h1><p><u>Underlined text</u> is cool</p>");
 });
+test("Lacking line separation", () => {
+  expect(evalulate("p\tText...\n\t text...")).toBe("<p>Text... text...</p>");
+});
 test("No start tag", () => {
   expect(evalulate("\tHi")).toBe("Hi");
 });

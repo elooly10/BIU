@@ -1,5 +1,5 @@
 {
-  "name": "BIU",
+  "name": "@elooly/biu",
   "version": "1.0.0",
   "description": "A lightweight, simple, and easy way to create markup",
   "main": "index.js",

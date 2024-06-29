@@ -54,6 +54,7 @@ function evaluateInlineText(line, lineType) {
     return text;
 }
 function evalulate(biu) {
+  biu = biu.replace(/ {3}(?! )/g, "\t");
   let currentBlockTag = ""; // P, H1, ect.
   let text = ""; // HTML
   // Separate each line
